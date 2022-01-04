@@ -1,0 +1,83 @@
+Instruções e declarações por categoria
+Para visualizar em ordem alfabética use a barra de rolagem à esquerda.
+
+Control flow
+Block
+Uma instrução de bloqueio é usada para um grupo de zero ou mais instruções. O bloqueio é delimitado por um par de chaves.
+
+break
+Termina o atual loop, troca, ou nomeia instruções e transfere o controle do programa para a próxima instrução após a que foi terminada agora.
+
+continue
+Termina a execução das instruções na atual iteração do atual loop, e continua a execução do loop com a seguinte iteração.
+
+Empty
+Uma instrução vazia é usada para gerar uma "não-instrução", ainda que o JavaScrpit espere uma.
+
+if...else
+Executa uma instrução se a condição especificada é verdadeira. Se a condição é falsa, outra instrução pode ser executada.
+
+switch
+Retorna uma expressão, combinando o valor da expressão a condição do caso, e executa a condição associada a este caso.
+
+throw
+Aplica uma exceção definida pelo usuário.
+
+try...catch
+Marca um bloco de instruções para tentar, e especifica a resposta, uma exceção deve ser retornada.
+
+Declarações
+var
+Declara uma variável, opcionalmente inicializando com um valor.
+
+ let
+Declara acesso ao local da variável, opcionalmente inicializando com um valor.
+ const
+Declara uma constante de apenas leitura.
+
+Funções e classes
+function
+Declara uma função com os parâmetros especificos.
+
+ function*
+Gera funções habilitando iteradores de escrita mais facilmente.
+
+return
+Especifica o valor a ser retornado por uma função.
+
+ class
+Declara uma classe.
+
+Iterações
+do...while
+Cria um loop que executa uma especifica instrução até que a condição de teste seja falsa. A condição é retornada depois da execução da instrução, resultando na instrução especificada executando ao menos uma vez.
+
+for
+Cria um loop que consiste em três opções de expressões, entre parenteses e separado por ponto e vírgula, seguido pela instrução executada no loop.
+
+  for each...in
+Itera uma variável especificada sobre todos os valores das propriedades do objeto. Para cada propriedade distinta, uma instrução especificada é executada.
+
+for...in
+Itera através de enumeráveis propriedades de um objeto, em ordem arbitrária. Para cada propriedade distinta, instruções podem ser executadas.
+
+ for...of
+Itera através de objetos iteráveis (incluindo arrays, array-like objects, iterators and generators), invocando uma iteração personalizada com  instruções para serem executadas pelo valor de cada propriedade.
+
+while
+Cria um loop que executa uma especifica instrução enquanto o teste da condição for positivo. A condição é retornada antes de executar a instrução.
+
+debugger
+Invoca qualquer funcionalidade de depuração disponível. Se não há funcionabilidade disponível, a instrução não tem efeito.
+
+ export
+Usado para exportar funções que os deixa disponível para importação em módulos externos, outros scripts.
+
+ import
+Usado para importar funções exportadas de um módulo externo, outro script.
+
+label
+Fornece uma instrução com um identificador que pode ser referido usando break ou continue instruções.
+
+ with
+Extende o alcance de uma instrução.
