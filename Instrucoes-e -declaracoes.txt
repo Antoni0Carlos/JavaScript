@@ -1,5 +1,4 @@
 Instruções e declarações por categoria
-Para visualizar em ordem alfabética use a barra de rolagem à esquerda.
 
 Control flow
 Block

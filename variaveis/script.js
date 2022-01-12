@@ -8,7 +8,7 @@ for(let i = 0; i <= 10; i++) {
     var j = i;
 }
 
-console.log( j)
+console.log(j);
 
 // como mudar o valor de uma constante
 
