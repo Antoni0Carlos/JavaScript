@@ -1,4 +1,4 @@
-const EntityBase = require("./enityBase");
+const EntityBase = require("./EnityBase");
 class EntityBase extends EntityBase{
     static #TAXES_PERCENTUAL = 0.2
     #grossPay = 5000.40

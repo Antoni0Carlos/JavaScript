@@ -1,0 +1,35 @@
+DOM - Document Obeject Model
+
+(X) Estrutura de árvore criada pelo browser para Javascript
+(X) Representação do HTML  em Objetos
+(X) Propiedades e métodos
+(X) Javascript usa DOM para se conectar ao HTML
+
+CODIGO
+
+(X) Apresentação do projeto 
+(X) Console
+     (X) Console.dir(document)
+     (X)document.URL()
+     (X)  URL, title, head, body, links, forms, images
+
+BUSCANDO E SELECIONADO ELEMENTOS
+     (X) .getElemnt(returns element)
+     (X) .getElementsByClassName()
+     (X) .querySelector()
+     (X) .querySelectorAll()
+
+ MANIPULANDO CONTEUDO
+
+     () .textContent
+     () .innerText
+     () .innerHTML
+     () .value (iputs)
+ 
+ ALTERANDO ESTILOS
+     () .style property (camelCase)
+     () .classList
+        () .add()
+        () .remove()
+        () .toggle()
+        

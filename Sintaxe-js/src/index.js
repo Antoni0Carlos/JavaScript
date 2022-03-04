@@ -22,9 +22,14 @@ const GENDER = {
         name: 'Amanda Kelly',
         gender: GENDER.famele
     })
-    console.log('e', employee.birthDay)
+    assert.throws(() => employee.birthYear, { message: 'you must define age first!!'})
 }
 
 {
-    const employee = 0
+    const employee = new Employee({
+        name: 'Joaozinho',
+        age: 20,
+        gender: GENDER.male
+    })
+    assert.deepStrictEqual(employee.name, "Mr. Joaozinho")
 }

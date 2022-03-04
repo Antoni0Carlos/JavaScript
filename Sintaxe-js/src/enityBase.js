@@ -11,7 +11,7 @@ class EntityBase{
      const preffix = this.#gender === "male" ? "Mr." : "Ms."
      return `${preffix} ${this.#name}`
  }
- get birthDay() {
+ get birthYaer() {
      if(!this.#age){
          throw new Error('you must define age first!!')
      }
