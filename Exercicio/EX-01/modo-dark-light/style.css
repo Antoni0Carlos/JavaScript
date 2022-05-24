@@ -21,6 +21,22 @@ main {
 	justify-content: center;
 }
 
+
+.main__img {
+	width: 240px;
+	height: auto;
+  }
+  
+  #main__blob {
+	fill:#4e545c;
+  }
+  #main__blob.dark-mode {
+	fill:#e5e8e8;
+  }
+  
+  .main__blob-img {
+	width: 100%;
+  }
 footer {
 	width: 100%;
 	background-color: #4e545c;
