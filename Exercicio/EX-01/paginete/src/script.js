@@ -60,23 +60,32 @@ const controls = {
 }
 
 const list = {
-    create(item) {},
+    create(item) {
+        const div = document.createElement('div');
+        div.innerHTML = item;
+        html.get('.list').appendChild(div)
+    },
     update() {
         html.get('.list').innerHTML = ""
 
         let page = state.page - 1;
-        console.log(data.slice(0, 5))
+        let start = page * state.perPage;
+        let end = start + state.perPage;
+
+        const paginatedItems = data.slice(start, end)
+        paginatedItems.forEach((list.create) )
+        console.log(data.slice(1, 6))
     }
 }
 
 controls.createListeners()
 
 function update() {
-    console.log(state.page);
+    list.update();
 }
 
 function init() {
-    controls.createListeners()
+    controls.createListeners();
 }
 
 init()
