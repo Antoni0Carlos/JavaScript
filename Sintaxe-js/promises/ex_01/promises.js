@@ -1,4 +1,4 @@
-// Criação de Promise
+// Criação da Promise
 const myPromise = new Promise((resolve, reject) => {
     const nome = "Carlos";
     if(nome === "Carlos") {
@@ -83,4 +83,27 @@ const p6 = new Promise((resolve, reject) => {
 
 const resolveAllRace = Promise.race([p4, p5, p6]).then((data) =>  {
     console.log(data);
+})
+
+// Fetch request na API do Github
+// Fetch API
+
+const userName = 'matheusbattisti'
+
+fetch(`https://api .github.com/users/${userName}`, {
+    method: 'GET',
+    headers: {
+        Accept: 'application/vnd.github.v3+json',
+    },
+})
+.then((response)  =>{
+    console.log(typeof response)
+    console.log(response)
+    return response.json();
+})
+.then((data) =>{
+    console.log(`O nome do usuário é: ${data.name}`);
+})
+.catch((err) =>{
+    console.log(`Houve algum erro: ${err}`);
 })
